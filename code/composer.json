@@ -1,0 +1,16 @@
+{
+    "name": "library/system",
+    "description": "Library system for managing books",
+    "type": "project",
+    "require": {
+        "php": "^8.0"
+    },
+    "autoload": {
+        "files": [
+            "src/Book.php",
+            "src/DigitalBook.php",
+            "src/Library.php",
+            "src/PhysicalBook.php"
+        ]
+    }
+}
